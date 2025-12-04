@@ -1,0 +1,16 @@
+.testimonial-card {
+  background: #fff;
+  border: 1px solid #E6E6E6;
+  border-radius: 14px;
+  padding: 14px;           /* smaller padding */
+  box-shadow: 0 4px 12px rgba(17,24,39,0.04); /* slightly smaller shadow */
+  transition: transform .25s ease, box-shadow .25s ease;
+  display:flex;
+  flex-direction:column;
+  min-height: 120px;       /* smaller height */
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(17,24,39,0.08); /* slightly smaller hover shadow */
+}
